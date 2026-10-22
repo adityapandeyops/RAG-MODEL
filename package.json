@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Local RAG Research Assistant Website with Ollama & Streamlit",
   "scripts": {
-    "dev": "Start_Website.bat",
-    "start": "Start_Website.bat",
+    "dev": "start.bat",
+    "start": "start.bat",
     "open": "Open_Localhost.bat",
     "ollama": "ollama serve"
   },
