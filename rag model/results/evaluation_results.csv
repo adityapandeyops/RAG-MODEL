@@ -1,0 +1,721 @@
+question_id,configuration,question,answerable,recall@1,recall@3,recall@5,mrr,citation_correctness,token_f1,retrieval_latency_s,rerank_latency_s,generation_latency_s,total_latency_s,retrieved_chunk_ids,citations,generated_answer
+q01,A_vector,What is the primary function of Retrieval-Augmented Generation in modern LLM systems?,True,1.0,1.0,1.0,1.0,0.2,0.11538461538461539,0.0039647999801672995,0.0,4.091743799974211,4.09571219998179,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q02,A_vector,Which embedding model is mentioned as an example of dense vector generation?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.006941500003449619,0.0,4.091009000025224,4.097954500000924,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q03,A_vector,What specific weakness of dense vector search does BM25 compensate for?,True,1.0,1.0,1.0,1.0,0.4,0.0392156862745098,0.009287900000344962,0.0,4.0740258999867365,4.083317100012209,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q04,A_vector,What is the standard smoothing parameter k typically used in Reciprocal Rank Fusion?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.005043999990448356,0.0,4.06002409994835,4.065071099961642,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q05,A_vector,How do Cross-Encoders differ from Bi-encoders in their attention mechanism?,True,1.0,1.0,1.0,1.0,0.2,0.0784313725490196,0.004559899971354753,0.0,4.04619130003266,4.05075430002762,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q06,A_vector,What is the latency trade-off introduced by Cross-Encoder reranking?,True,1.0,1.0,1.0,1.0,0.2,0.038461538461538464,0.0074976999894715846,0.0,4.07399990002159,4.081502199987881,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q07,A_vector,Why should citations not be generated freely by the LLM?,True,1.0,1.0,1.0,1.0,0.2,0.1568627450980392,0.008405999979004264,0.0,4.090762000007089,4.099172099959105,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q08,A_vector,How many net ATP molecules are generated during glycolysis per glucose molecule?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.008793900022283196,0.0,4.072913000010885,4.0817115000099875,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q09,A_vector,How many total ATP molecules are produced per oxidized glucose molecule in oxidative phosphorylation?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.0067888000048696995,0.0,4.075366000004578,4.082157200027723,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q10,A_vector,Where are photosystems I and II located within plant cells?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.005403299990575761,0.0,4.061799500021152,4.067204900027718,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3']","['[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q11,A_vector,What is the byproduct released during the photolysis of water in photosynthesis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004193199973087758,0.0,4.06068380002398,4.06487920001382,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q12,A_vector,Which electron transport chain complexes are impaired by mtDNA mutations in Leigh syndrome?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.006104599975515157,0.0,4.076812700019218,4.0829196000122465,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q13,A_vector,What percentage of anthropogenic carbon dioxide emissions is absorbed by oceans annually?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0035988999879918993,0.0,4.06154989998322,4.065150599984918,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q14,A_vector,By how many units has ocean pH decreased since the industrial revolution?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.005494999990332872,0.0,4.077519200043753,4.083016999997199,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q15,A_vector,How fast is the Arctic warming compared to the global average rate?,True,1.0,1.0,1.0,1.0,0.2,0.12000000000000001,0.005011300032492727,0.0,4.0787881999858655,4.083801799977664,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q16,A_vector,What is the surface reflectivity change from multi-year sea ice to open ocean water in the Arctic?,True,1.0,1.0,1.0,1.0,0.2,0.0816326530612245,0.006536300003062934,0.0,4.0732611999846995,4.07979940000223,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q17,A_vector,What chemical acid is formed when oceans absorb carbon dioxide?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004190800013020635,0.0,4.062718500033952,4.066911400004756,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q18,A_vector,Which cycle operates in the chloroplast stroma to synthesize glucose-6-phosphate?,True,1.0,1.0,1.0,1.0,0.2,0.04878048780487805,0.005257199984043837,0.0,4.05989660002524,4.065156600030605,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q19,A_vector,What vector database is cited in the survey for storing dense vectors?,True,0.0,0.0,1.0,0.25,0.2,0.0,0.003914000000804663,0.0,4.078926999995019,4.082843200012576,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q20,A_vector,What mathematical formula does RRF use to fuse rankings across modalities?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.004966600041370839,0.0,4.062848900037352,4.067817400034983,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q21,A_vector,Which metabolic disease is mentioned in connection with mtDNA mutations and lactic acidosis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004715799994301051,0.0,4.076016999955755,4.080735299969092,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q22,A_vector,What is the term given to the feedback loop where melting Arctic sea ice increases solar absorption?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0047414000146090984,0.0,4.055374299990945,4.060117200016975,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q23,A_vector,How does energy production compare between aerobic respiration and glycolysis in the cell?,True,1.0,1.0,1.0,1.0,0.2,0.041666666666666664,0.003260499972384423,0.0,4.0741247000405565,4.077387099969201,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q24,A_vector,In what ways do bi-encoders and cross-encoders complement each other in multi-stage retrieval?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.007556299970019609,0.0,4.0864921999746,4.0940510999644175,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q25,A_vector,What are the environmental consequences of oceanic carbonic acid formation?,True,1.0,1.0,1.0,1.0,0.2,0.04081632653061225,0.005268400011118501,0.0,4.093730399967171,4.099001800001133,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q26,A_vector,How does metadata tagging support provenance in research assistant architectures?,True,1.0,1.0,1.0,1.0,0.2,0.15384615384615385,0.010046100011095405,0.0,4.055800199974328,4.065849800012074,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q27,A_vector,What is the exact atmospheric pressure on the surface of Venus described in the document?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.004937599995173514,0.0,4.079117700050119,4.0840576000045985,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q28,A_vector,Which algorithm is used for sorting quantum qubits in topological quantum computers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.007759300002362579,0.0,4.055781900009606,4.0635443000355735,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q29,A_vector,What is the recommended dosage of aspirin for cardiovascular prevention according to the text?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.008319299959111959,0.0,4.059923799999524,4.068245499976911,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q30,A_vector,How many moons orbit the planet Neptune based on the provided papers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.005971200007479638,0.0,4.057916700025089,4.063890000048559,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q01,B_bm25,What is the primary function of Retrieval-Augmented Generation in modern LLM systems?,True,1.0,1.0,1.0,1.0,0.2,0.11538461538461539,0.0008162999874912202,0.0,4.048524199984968,4.049342999991495,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q02,B_bm25,Which embedding model is mentioned as an example of dense vector generation?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0004762999597005546,0.0,4.065975499979686,4.066454699961469,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q03,B_bm25,What specific weakness of dense vector search does BM25 compensate for?,True,1.0,1.0,1.0,1.0,0.4,0.0392156862745098,0.0007657000096514821,0.0,4.064152899954934,4.064921599987429,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q04,B_bm25,What is the standard smoothing parameter k typically used in Reciprocal Rank Fusion?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.00040989997796714306,0.0,4.082404799992219,4.082818399998359,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q05,B_bm25,How do Cross-Encoders differ from Bi-encoders in their attention mechanism?,True,1.0,1.0,1.0,1.0,0.2,0.0784313725490196,0.0009277000208385289,0.0,4.057219800015446,4.058150400000159,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q06,B_bm25,What is the latency trade-off introduced by Cross-Encoder reranking?,True,1.0,1.0,1.0,1.0,0.2,0.038461538461538464,0.0003738999948836863,0.0,4.089302800013684,4.089679300028365,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q07,B_bm25,Why should citations not be generated freely by the LLM?,True,1.0,1.0,1.0,1.0,0.2,0.1568627450980392,0.0006332999910227954,0.0,4.050828899955377,4.051465099968482,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q08,B_bm25,How many net ATP molecules are generated during glycolysis per glucose molecule?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0006198000046424568,0.0,4.063565100019332,4.064187599986326,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q09,B_bm25,How many total ATP molecules are produced per oxidized glucose molecule in oxidative phosphorylation?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.0006146000232547522,0.0,4.098012499976903,4.098629700019956,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q10,B_bm25,Where are photosystems I and II located within plant cells?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.0006353000062517822,0.0,4.049930299981497,4.050568499951623,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q11,B_bm25,What is the byproduct released during the photolysis of water in photosynthesis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0006070999661460519,0.0,4.0809372999938205,4.081547099980526,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q12,B_bm25,Which electron transport chain complexes are impaired by mtDNA mutations in Leigh syndrome?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0005428000004030764,0.0,4.064604299957864,4.065149499976542,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q13,B_bm25,What percentage of anthropogenic carbon dioxide emissions is absorbed by oceans annually?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0004265999887138605,0.0,4.083037200034596,4.083466099982616,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q14,B_bm25,By how many units has ocean pH decreased since the industrial revolution?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0008937999955378473,0.0,4.064676899986807,4.065574199950788,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q15,B_bm25,How fast is the Arctic warming compared to the global average rate?,True,1.0,1.0,1.0,1.0,0.2,0.12000000000000001,0.0004828000091947615,0.0,4.047990699997172,4.048476000025403,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q16,B_bm25,What is the surface reflectivity change from multi-year sea ice to open ocean water in the Arctic?,True,1.0,1.0,1.0,1.0,0.2,0.0816326530612245,0.0005564999883063138,0.0,4.033517699979711,4.0340763999847695,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q17,B_bm25,What chemical acid is formed when oceans absorb carbon dioxide?,True,1.0,1.0,1.0,1.0,0.25,0.0,0.0005322000361047685,0.0,4.064532299991697,4.065067500050645,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q18,B_bm25,Which cycle operates in the chloroplast stroma to synthesize glucose-6-phosphate?,True,1.0,1.0,1.0,1.0,0.2,0.04878048780487805,0.0008169999928213656,0.0,4.113111399987247,4.1139318000059575,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q19,B_bm25,What vector database is cited in the survey for storing dense vectors?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0006573999999091029,0.0,4.082804400008172,4.083464700030163,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q20,B_bm25,What mathematical formula does RRF use to fuse rankings across modalities?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.0003643999807536602,0.0,4.080734899966046,4.081100799958222,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q21,B_bm25,Which metabolic disease is mentioned in connection with mtDNA mutations and lactic acidosis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.00034339999547228217,0.0,4.068139999988489,4.068485199997667,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q22,B_bm25,What is the term given to the feedback loop where melting Arctic sea ice increases solar absorption?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0007475999882444739,0.0,4.081033400027081,4.081784199981485,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q23,B_bm25,How does energy production compare between aerobic respiration and glycolysis in the cell?,True,1.0,1.0,1.0,1.0,0.2,0.041666666666666664,0.0005706000374630094,0.0,4.097419600002468,4.097994500014465,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q24,B_bm25,In what ways do bi-encoders and cross-encoders complement each other in multi-stage retrieval?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.0006911000236868858,0.0,4.082115400000475,4.082809499988798,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q25,B_bm25,What are the environmental consequences of oceanic carbonic acid formation?,True,1.0,1.0,1.0,1.0,0.2,0.04081632653061225,0.0004225000157020986,0.0,4.067431800009217,4.0678568000439554,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q26,B_bm25,How does metadata tagging support provenance in research assistant architectures?,True,1.0,1.0,1.0,1.0,0.2,0.15384615384615385,0.000519299996085465,0.0,4.113748500007205,4.114270900026895,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q27,B_bm25,What is the exact atmospheric pressure on the surface of Venus described in the document?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.000678699987474829,0.0,4.080039399967063,4.080721199978143,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q28,B_bm25,Which algorithm is used for sorting quantum qubits in topological quantum computers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0007016999879851937,0.0,4.069551800028421,4.070256400038488,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q29,B_bm25,What is the recommended dosage of aspirin for cardiovascular prevention according to the text?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0005029999883845448,0.0,4.049722700030543,4.050228000036441,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q30,B_bm25,How many moons orbit the planet Neptune based on the provided papers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0003279999946244061,0.0,4.043587199994363,4.043916599999648,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q01,C_hybrid_rrf,What is the primary function of Retrieval-Augmented Generation in modern LLM systems?,True,1.0,1.0,1.0,1.0,0.2,0.11538461538461539,0.005548299988731742,0.0,4.062630600004923,4.068180900008883,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q02,C_hybrid_rrf,Which embedding model is mentioned as an example of dense vector generation?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004018599982373416,0.0,4.04477549996227,4.048796399962157,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q03,C_hybrid_rrf,What specific weakness of dense vector search does BM25 compensate for?,True,1.0,1.0,1.0,1.0,0.4,0.0392156862745098,0.007374700042419136,0.0,4.041967699944507,4.049344099999871,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q04,C_hybrid_rrf,What is the standard smoothing parameter k typically used in Reciprocal Rank Fusion?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.006229599996004254,0.0,4.041915400011931,4.0481472999672405,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q05,C_hybrid_rrf,How do Cross-Encoders differ from Bi-encoders in their attention mechanism?,True,1.0,1.0,1.0,1.0,0.2,0.0784313725490196,0.006100800004787743,0.0,4.042612100020051,4.048714800039306,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q06,C_hybrid_rrf,What is the latency trade-off introduced by Cross-Encoder reranking?,True,1.0,1.0,1.0,1.0,0.2,0.038461538461538464,0.005988000018987805,0.0,4.060759900021367,4.066749299992807,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q07,C_hybrid_rrf,Why should citations not be generated freely by the LLM?,True,1.0,1.0,1.0,1.0,0.2,0.1568627450980392,0.004550600016955286,0.0,4.078580999979749,4.083133000007365,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q08,C_hybrid_rrf,How many net ATP molecules are generated during glycolysis per glucose molecule?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.006036599981598556,0.0,4.075377199973445,4.081416899978649,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q09,C_hybrid_rrf,How many total ATP molecules are produced per oxidized glucose molecule in oxidative phosphorylation?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.006061699998099357,0.0,4.058911200030707,4.0649748999858275,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q10,C_hybrid_rrf,Where are photosystems I and II located within plant cells?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.003862700017634779,0.0,4.0604857000289485,4.064350099943113,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3']","['[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q11,C_hybrid_rrf,What is the byproduct released during the photolysis of water in photosynthesis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004558600019663572,0.0,4.077798799960874,4.082359199994244,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q12,C_hybrid_rrf,Which electron transport chain complexes are impaired by mtDNA mutations in Leigh syndrome?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.37427129998104647,0.0,4.060306400002446,4.434581100009382,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q13,C_hybrid_rrf,What percentage of anthropogenic carbon dioxide emissions is absorbed by oceans annually?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.007706699951086193,0.0,4.058281100005843,4.065992199990433,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q14,C_hybrid_rrf,By how many units has ocean pH decreased since the industrial revolution?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.008565400028601289,0.0,4.058778499951586,4.067347300006077,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q15,C_hybrid_rrf,How fast is the Arctic warming compared to the global average rate?,True,1.0,1.0,1.0,1.0,0.2,0.12000000000000001,0.0069555999943986535,0.0,4.062317400006577,4.069275300018489,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q16,C_hybrid_rrf,What is the surface reflectivity change from multi-year sea ice to open ocean water in the Arctic?,True,1.0,1.0,1.0,1.0,0.2,0.0816326530612245,0.005516799981705844,0.0,4.055758000002243,4.061276599997655,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q17,C_hybrid_rrf,What chemical acid is formed when oceans absorb carbon dioxide?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.006102299958001822,0.0,4.0591099000303075,4.0652138000004925,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q18,C_hybrid_rrf,Which cycle operates in the chloroplast stroma to synthesize glucose-6-phosphate?,True,1.0,1.0,1.0,1.0,0.2,0.04878048780487805,0.005558500008191913,0.0,4.060223800013773,4.065784199978225,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q19,C_hybrid_rrf,What vector database is cited in the survey for storing dense vectors?,True,0.0,1.0,1.0,0.5,0.2,0.0,0.005243799998424947,0.0,4.077415000007022,4.082660399959423,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q20,C_hybrid_rrf,What mathematical formula does RRF use to fuse rankings across modalities?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.006852699967566878,0.0,4.061532500025351,4.068387300008908,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q21,C_hybrid_rrf,Which metabolic disease is mentioned in connection with mtDNA mutations and lactic acidosis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004563199996482581,0.0,4.0737304000067525,4.078294900013134,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q22,C_hybrid_rrf,What is the term given to the feedback loop where melting Arctic sea ice increases solar absorption?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004079900041688234,0.0,4.062255700002424,4.0663365999935195,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q23,C_hybrid_rrf,How does energy production compare between aerobic respiration and glycolysis in the cell?,True,1.0,1.0,1.0,1.0,0.2,0.041666666666666664,0.0042215000139549375,0.0,4.065193900023587,4.069416399986949,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q24,C_hybrid_rrf,In what ways do bi-encoders and cross-encoders complement each other in multi-stage retrieval?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.003370200050994754,0.0,4.064801200001966,4.068172500003129,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q25,C_hybrid_rrf,What are the environmental consequences of oceanic carbonic acid formation?,True,1.0,1.0,1.0,1.0,0.2,0.04081632653061225,0.0028380000148899853,0.0,4.041892200009897,4.044731200032402,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q26,C_hybrid_rrf,How does metadata tagging support provenance in research assistant architectures?,True,1.0,1.0,1.0,1.0,0.2,0.15384615384615385,0.004515199980232865,0.0,4.04453640000429,4.049052599992137,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q27,C_hybrid_rrf,What is the exact atmospheric pressure on the surface of Venus described in the document?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0040152000146918,0.0,4.078771499975119,4.082788100000471,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q28,C_hybrid_rrf,Which algorithm is used for sorting quantum qubits in topological quantum computers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0044707999913953245,0.0,4.044589299999643,4.049061099998653,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q29,C_hybrid_rrf,What is the recommended dosage of aspirin for cardiovascular prevention according to the text?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.004567999974824488,0.0,4.095330099982675,4.0998993999673985,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q30,C_hybrid_rrf,How many moons orbit the planet Neptune based on the provided papers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.005165699985809624,0.0,4.046938400017098,4.05210500000976,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q01,D_hybrid_reranked,What is the primary function of Retrieval-Augmented Generation in modern LLM systems?,True,1.0,1.0,1.0,1.0,0.2,0.11538461538461539,0.003011499997228384,186.5397196999984,4.07032060000347,190.6130546000204,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q02,D_hybrid_reranked,Which embedding model is mentioned as an example of dense vector generation?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.01120529999025166,0.20335079997312278,4.054479400045238,4.269038500031456,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q03,D_hybrid_reranked,What specific weakness of dense vector search does BM25 compensate for?,True,1.0,1.0,1.0,1.0,0.4,0.0392156862745098,0.007620599993970245,0.3189358999952674,4.0570173999876715,4.383577600005083,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q04,D_hybrid_reranked,What is the standard smoothing parameter k typically used in Reciprocal Rank Fusion?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.012130899995099753,0.19247769995126873,4.077485100016929,4.28209659998538,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q05,D_hybrid_reranked,How do Cross-Encoders differ from Bi-encoders in their attention mechanism?,True,1.0,1.0,1.0,1.0,0.2,0.0784313725490196,0.00704199995379895,0.19180289999349043,4.067700400017202,4.266547899984289,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q06,D_hybrid_reranked,What is the latency trade-off introduced by Cross-Encoder reranking?,True,1.0,1.0,1.0,1.0,0.2,0.038461538461538464,0.005871700006537139,0.18342469999333844,4.060663699987344,4.249962300003972,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q07,D_hybrid_reranked,Why should citations not be generated freely by the LLM?,True,1.0,1.0,1.0,1.0,0.2,0.1568627450980392,0.006950500013772398,0.1696088999742642,4.038097100041341,4.214659000048414,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q08,D_hybrid_reranked,How many net ATP molecules are generated during glycolysis per glucose molecule?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.005891700042411685,0.1856751999584958,4.045128300029319,4.236698099994101,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q09,D_hybrid_reranked,How many total ATP molecules are produced per oxidized glucose molecule in oxidative phosphorylation?,True,1.0,1.0,1.0,1.0,0.2,0.05128205128205128,0.012037300039082766,0.1939390999614261,4.0555430999957025,4.261523299966939,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q10,D_hybrid_reranked,Where are photosystems I and II located within plant cells?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.008939100021962076,0.1799891999689862,4.058604400022887,4.247534900030587,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q11,D_hybrid_reranked,What is the byproduct released during the photolysis of water in photosynthesis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004000999964773655,0.21883540000999346,4.077479399973527,4.3003172999597155,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2']","['[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q12,D_hybrid_reranked,Which electron transport chain complexes are impaired by mtDNA mutations in Leigh syndrome?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004714699985925108,0.1639205000246875,4.063371600001119,4.232009600033052,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q13,D_hybrid_reranked,What percentage of anthropogenic carbon dioxide emissions is absorbed by oceans annually?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.008766600047238171,0.19847940001636744,4.074341300001834,4.281589900027029,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q14,D_hybrid_reranked,By how many units has ocean pH decreased since the industrial revolution?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.02740080002695322,0.23461099999258295,4.090436399972532,4.3524505000095814,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q15,D_hybrid_reranked,How fast is the Arctic warming compared to the global average rate?,True,1.0,1.0,1.0,1.0,0.2,0.12000000000000001,0.0086495999712497,0.20049429999198765,4.088477600016631,4.2976246000034735,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q16,D_hybrid_reranked,What is the surface reflectivity change from multi-year sea ice to open ocean water in the Arctic?,True,1.0,1.0,1.0,1.0,0.2,0.0816326530612245,0.01135210000211373,0.18876200000522658,4.0835166000179015,4.283634600054938,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q17,D_hybrid_reranked,What chemical acid is formed when oceans absorb carbon dioxide?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.00911350001115352,0.19288889999734238,4.030549099959899,4.232554899994284,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q18,D_hybrid_reranked,Which cycle operates in the chloroplast stroma to synthesize glucose-6-phosphate?,True,1.0,1.0,1.0,1.0,0.2,0.04878048780487805,0.008596899977419525,0.2028085999772884,4.085395900008734,4.296804299985524,"['eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q19,D_hybrid_reranked,What vector database is cited in the survey for storing dense vectors?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.007083199976477772,0.17162660002941266,4.054611200001091,4.233323799970094,"['eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q20,D_hybrid_reranked,What mathematical formula does RRF use to fuse rankings across modalities?,True,1.0,1.0,1.0,1.0,0.2,0.047619047619047616,0.00854010001057759,0.18428759998641908,4.087692800036166,4.280523000052199,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q21,D_hybrid_reranked,Which metabolic disease is mentioned in connection with mtDNA mutations and lactic acidosis?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.004739800002425909,0.1827653999789618,4.0806209000293165,4.268128599971533,"['eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q22,D_hybrid_reranked,What is the term given to the feedback loop where melting Arctic sea ice increases solar absorption?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.008912599994800985,0.18599309999262914,4.102452900027856,4.297363699995913,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q23,D_hybrid_reranked,How does energy production compare between aerobic respiration and glycolysis in the cell?,True,1.0,1.0,1.0,1.0,0.2,0.041666666666666664,0.007768700015731156,0.17851019999943674,4.081205700000282,4.267487299977802,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p1_c0']","['[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q24,D_hybrid_reranked,In what ways do bi-encoders and cross-encoders complement each other in multi-stage retrieval?,True,1.0,1.0,1.0,1.0,0.2,0.0,0.00647170003503561,0.31109299999661744,4.0809810000355355,4.398548200028017,"['eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q25,D_hybrid_reranked,What are the environmental consequences of oceanic carbonic acid formation?,True,1.0,1.0,1.0,1.0,0.2,0.04081632653061225,0.006189199979417026,0.16754779999610037,4.074722899997141,4.248462199990172,"['eval_climate_dynamics_report_pdf_p1_c0', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p4_c3']","['[climate_dynamics_report.pdf, Page 1]', '[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 4]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q26,D_hybrid_reranked,How does metadata tagging support provenance in research assistant architectures?,True,1.0,1.0,1.0,1.0,0.2,0.15384615384615385,0.006759000010788441,0.2027652999968268,4.08869639999466,4.298223000019789,"['eval_rag_architectures_survey_pdf_p4_c3', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 4]', '[rag_architectures_survey.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q27,D_hybrid_reranked,What is the exact atmospheric pressure on the surface of Venus described in the document?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.005585799983236939,0.18826500000432134,4.039159899984952,4.233012499986216,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_climate_dynamics_report_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p1_c0']","['[climate_dynamics_report.pdf, Page 2]', '[climate_dynamics_report.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 1]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q28,D_hybrid_reranked,Which algorithm is used for sorting quantum qubits in topological quantum computers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0051015999633818865,0.1949641000246629,4.099943699955475,4.300011699961033,"['eval_rag_architectures_survey_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1']","['[rag_architectures_survey.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q29,D_hybrid_reranked,What is the recommended dosage of aspirin for cardiovascular prevention according to the text?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.0060251999530009925,0.2083238000050187,4.101641700020991,4.315992899995763,"['eval_climate_dynamics_report_pdf_p2_c1', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_rag_architectures_survey_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_cellular_energy_mechanisms_pdf_p3_c2']","['[climate_dynamics_report.pdf, Page 2]', '[rag_architectures_survey.pdf, Page 3]', '[rag_architectures_survey.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 1]', '[cellular_energy_mechanisms.pdf, Page 3]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."
+q30,D_hybrid_reranked,How many moons orbit the planet Neptune based on the provided papers?,False,1.0,1.0,1.0,1.0,1.0,0.17777777777777776,0.008023700036574155,0.15879259997745976,4.050307400000747,4.217126500036102,"['eval_cellular_energy_mechanisms_pdf_p1_c0', 'eval_rag_architectures_survey_pdf_p3_c2', 'eval_climate_dynamics_report_pdf_p2_c1', 'eval_cellular_energy_mechanisms_pdf_p3_c2', 'eval_cellular_energy_mechanisms_pdf_p2_c1']","['[cellular_energy_mechanisms.pdf, Page 1]', '[rag_architectures_survey.pdf, Page 3]', '[climate_dynamics_report.pdf, Page 2]', '[cellular_energy_mechanisms.pdf, Page 3]', '[cellular_energy_mechanisms.pdf, Page 2]']","**[Notice: Local LLM runtime offline]**
+
+Could not connect to Ollama at http://localhost:11434.
+
+However, relevant document passages were successfully retrieved with verified metadata citations.
+Inspect the evidence excerpts below for grounded context."

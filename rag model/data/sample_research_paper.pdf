@@ -1,0 +1,105 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 424 >>
+stream
+BT
+/F1 12 Tf
+50 720 Td
+14 TL
+(Retrieval-Augmented Generation \(RAG\) Architecture Overview) '
+(Page 1) '
+() '
+(Retrieval-Augmented Generation combines an external knowledge retriever with an LLM.) '
+(By retrieving relevant passages before generation, RAG reduces hallucinations and grounds claims in real documents.) '
+(Dense vector search is effective for semantic matching, but struggles on rare tokens and acronyms.) '
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 382 >>
+stream
+BT
+/F1 12 Tf
+50 720 Td
+14 TL
+(Hybrid Retrieval with BM25 and Reciprocal Rank Fusion \(RRF\)) '
+(Page 2) '
+() '
+(Lexical search using BM25Okapi indexes exact term frequencies and document lengths.) '
+(Reciprocal Rank Fusion combines vector search and BM25 search rankings without needing raw score normalization.) '
+(The RRF formula is 1 / \(k + rank\), where k=60 is standard.) '
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 366 >>
+stream
+BT
+/F1 12 Tf
+50 720 Td
+14 TL
+(Cross-Encoder Reranking and Latency Evaluation) '
+(Page 3) '
+() '
+(Cross-Encoders perform joint attention over the question and passage pair.) '
+(This improves ranking precision and MRR at the cost of higher latency.) '
+(On a 16 GB RAM laptop, a compact model like cross-encoder/ms-marco-MiniLM-L-6-v2 balances accuracy and speed.) '
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 393 >>
+stream
+BT
+/F1 12 Tf
+50 720 Td
+14 TL
+(Citation Provenance and Evidence Integrity) '
+(Page 4) '
+() '
+(Citations must be synthesized directly from chunk metadata \(source filename and page number\).) '
+(The system must never rely on LLM hallucinations for page citations.) '
+(When documents lack sufficient evidence, the assistant states that the supplied documents do not provide enough evidence.) '
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000134 00000 n 
+0000000679 00000 n 
+0000000204 00000 n 
+0000001238 00000 n 
+0000000805 00000 n 
+0000001781 00000 n 
+0000001364 00000 n 
+0000002352 00000 n 
+0000001907 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+2480
+%%EOF

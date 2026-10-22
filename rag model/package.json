@@ -1,0 +1,19 @@
+{
+  "name": "rag-research-assistant",
+  "version": "1.0.0",
+  "description": "Local RAG Research Assistant Website with Ollama & Streamlit",
+  "scripts": {
+    "dev": "start.bat",
+    "start": "start.bat",
+    "open": "Open_Localhost.bat",
+    "ollama": "ollama serve"
+  },
+  "keywords": [
+    "rag",
+    "ollama",
+    "streamlit",
+    "local-ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}
